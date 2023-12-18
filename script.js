@@ -19,8 +19,7 @@ for (index in players) {
   if (players[index].scorePoints > score) {
     bestPlayer = players[index].name;
     score = players[index].scorePoints;
-    console.log(`The best player is ${bestPlayer} with score ${score}`);
   }
 }
-
+console.log(`The best player is ${bestPlayer} with score ${score}`);
 
